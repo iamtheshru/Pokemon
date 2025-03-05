@@ -1,0 +1,169 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Normal {
+  background-color: #929da3;
+  border: 2px solid #929da3;
+  border-radius: 0.5em;
+}
+
+.Fighting {
+  background-color: #ce416b;
+  border: 2px solid #ce416b;
+  border-radius: 0.5em;
+}
+
+.Flying {
+  background-color: #8fa9de;
+  border: 2px solid #8fa9de;
+  border-radius: 0.5em;
+}
+
+.Poison {
+  background-color: #aa6bc8;
+  border: 2px solid #aa6bc8;
+  border-radius: 0.5em;
+}
+
+.Ground {
+  background-color: #d97845;
+  border: 2px solid #d97845;
+  border-radius: 0.5em;
+}
+
+.Rock {
+  background-color: #c5b78c;
+  border: 2px solid #c5b78c;
+  border-radius: 0.5em;
+}
+
+.Bug {
+  background-color: #91c12f;
+  border: 2px solid #91c12f;
+  border-radius: 0.5em;
+}
+
+.Ghost {
+  background-color: #5269ad;
+  border: 2px solid #5269ad;
+  border-radius: 0.5em;
+}
+
+.Steel {
+  background-color: #5a8ea2;
+  border: 2px solid #5a8ea2;
+  border-radius: 0.5em;
+}
+
+.Fire {
+  background-color: #ff9d55;
+  border: 2px solid #ff9d55;
+  border-radius: 0.5em;
+}
+
+.Water {
+  background-color: #5090d6;
+  border: 2px solid #5090d6;
+  border-radius: 0.5em;
+}
+
+.Grass {
+  background-color: #63bc5a;
+  border: 2px solid #63bc5a;
+  border-radius: 0.5em;
+}
+
+.Electric {
+  background-color: #f4d23c;
+  border: 2px solid #f4d23c;
+  border-radius: 0.5em;
+}
+
+.Psychic {
+  background-color: #fa7179;
+  border: 2px solid #fa7179;
+  border-radius: 0.5em;
+}
+
+.Ice {
+  background-color: #73cec0;
+  border: 2px solid #73cec0;
+  border-radius: 0.5em;
+}
+
+.Dragon {
+  background-color: #0b6dc3;
+  border: 2px solid #0b6dc3;
+  border-radius: 0.5em;
+}
+
+.Dark {
+  background-color: #5a5465;
+  border: 2px solid #5a5465;
+  border-radius: 0.5em;
+}
+
+.Fairy {
+  background-color: #ec8fe6;
+  border: 2px solid #ec8fe6;
+  border-radius: 0.5em;
+}
+
+.Physical {
+  background-color: #ea551e;
+  border: 2px solid #ea551e;
+  border-radius: 0.5em;
+}
+
+.Special {
+  background-color: #1c4684;
+  border: 2px solid #1c4684;
+  border-radius: 0.5em;
+}
+
+.Status {
+  background-color: #999999;
+  border: 2px solid #999999;
+  border-radius: 0.5em;
+}
